@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://127.0.0.1:5434/database_1
+    username: fiz
+    password: 314
+
+crg-options:
+  reglamentColumnName: reglament
+  reportOnlyFailed: true
+  schemaPrefix: workspace
+  protocol: http
+  host: localhost
+  port: 8100
+
+logging:
+  level:
+    com: OFF
+    ru.crg.reglaments: INFO
+  file:
+    name: reglament_test.log
+
