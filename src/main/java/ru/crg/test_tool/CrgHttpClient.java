@@ -1,4 +1,4 @@
-package ru.crg.reglaments;
+package ru.crg.test_tool;
 
 import okhttp3.*;
 import org.springframework.stereotype.Service;

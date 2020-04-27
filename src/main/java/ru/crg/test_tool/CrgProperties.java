@@ -1,4 +1,4 @@
-package ru.crg.reglaments;
+package ru.crg.test_tool;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

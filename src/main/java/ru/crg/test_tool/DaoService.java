@@ -1,4 +1,4 @@
-package ru.crg.reglaments;
+package ru.crg.test_tool;
 
 import lombok.extern.java.Log;
 import org.jetbrains.annotations.Nullable;
@@ -9,7 +9,7 @@ import java.net.URL;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static ru.crg.reglaments.Mapper.mapToReglamentLink;
+import static ru.crg.test_tool.Mapper.mapToReglamentLink;
 
 @Log
 @Service

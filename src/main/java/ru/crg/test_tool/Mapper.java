@@ -1,4 +1,4 @@
-package ru.crg.reglaments;
+package ru.crg.test_tool;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

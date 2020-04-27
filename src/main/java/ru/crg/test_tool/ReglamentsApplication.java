@@ -1,4 +1,4 @@
-package ru.crg.reglaments;
+package ru.crg.test_tool;
 
 import lombok.extern.java.Log;
 import org.springframework.boot.SpringApplication;

@@ -1,4 +1,4 @@
-package ru.crg.reglaments;
+package ru.crg.test_tool;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -11,9 +11,9 @@
     </parent>
 
     <groupId>ru.crg</groupId>
-    <artifactId>reglaments</artifactId>
+    <artifactId>test_tool</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>reglaments</name>
+    <name>testLinks</name>
 
     <properties>
         <java.version>11</java.version>
@@ -58,6 +58,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <finalName>${project.name}</finalName>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
