@@ -42,7 +42,7 @@ public class CollateApplication {
         log.info("Handle resource: " + resource.toString());
 
         try {
-            daoService.updateCollation(resource, "crgProperties.getCollation()");
+            daoService.updateCollation(resource, crgProperties.getCollation());
         } catch (DataAccessException e) {
             log.warn("Cant update collation: {}", e.getMessage());
         } catch (Exception e) {

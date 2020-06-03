@@ -11,6 +11,6 @@
 
 ##### Заменить одно/несколько из свойств, например:  
 укажем иной префикс схемы: workspace_271   
-и collate: en_US  
+и collation: en_US  
 
-`java -jar collate.jar --spring.datasource.url=jdbc:postgresql://127.0.0.1:5434/database_28 --crg-options.collate=en_US`
+`java -jar collate.jar --spring.datasource.url=jdbc:postgresql://127.0.0.1:5434/database_28 --crg-options.collation=en_US`

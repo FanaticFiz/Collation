@@ -6,5 +6,5 @@ spring:
     password: 314
 
 crg-options:
-  schemaPrefix: workspace_1
+  schemaPrefix: workspace
   collation: en_US
