@@ -9,5 +9,7 @@ public class TargetResource {
 
     private String schemaName;
     private String tableName;
+    private String columnName;
+    private String charLength;
 
 }

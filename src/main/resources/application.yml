@@ -6,17 +6,5 @@ spring:
     password: 314
 
 crg-options:
-  reglamentColumnName: reglament
-  reportOnlyFailed: true
-  schemaPrefix: workspace
-  protocol: http
-  host: localhost
-  port: 8100
-
-logging:
-  level:
-    com: OFF
-    ru.crg.reglaments: INFO
-  file:
-    name: reglament_test.log
-
+  schemaPrefix: workspace_1
+  collation: en_US
