@@ -1,15 +1,16 @@
-### Консольная тула для тестирования линков на регламенты
+### Консольная тула для collate
 
-Запуск с настройками по умолчанию: `java -jar testLinks.jar`
+Собрать `mvn package`
+
+Запустить с настройками по умолчанию: `java -jar collate.jar`
 
 #### Переопределение настроек
 
 ##### Указать новый файл  
-`java -jar testLinks.jar --spring.config.location=classpath:/another-location/some-name.yml`
+`java -jar collate.jar --spring.config.location=classpath:/another-location/some-name.yml`
 
 ##### Заменить одно/несколько из свойств, например:  
-укажем иную базу данных: database_28  
 укажем иной префикс схемы: workspace_271   
-и название колонки: link  
+и collate: en_US  
 
-`java -jar testLinks.jar --spring.datasource.url=jdbc:postgresql://127.0.0.1:5434/database_28 testLinks --crg-options.schemaPrefix=workspace_271 --crg-options.reglamentColumnName=link`
+`java -jar collate.jar --spring.datasource.url=jdbc:postgresql://127.0.0.1:5434/database_28 --crg-options.collate=en_US`

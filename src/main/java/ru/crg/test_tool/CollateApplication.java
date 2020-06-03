@@ -33,7 +33,7 @@ public class CollateApplication {
         log.info("Run for: " + environment.getProperty("spring.datasource.url"));
 
         daoService
-                .getTables(crgProperties.getSchemaPrefix())
+                .getColumns(crgProperties.getSchemaPrefix())
                 .stream().parallel()
                 .forEach(this::handleColumn);
     }

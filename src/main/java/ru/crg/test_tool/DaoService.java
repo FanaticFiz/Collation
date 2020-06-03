@@ -1,7 +1,6 @@
 package ru.crg.test_tool;
 
 import lombok.extern.java.Log;
-import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +17,7 @@ public class DaoService {
         this.jdbcTemplate = jdbcTemplate;
     }
 
-    public List<TargetResource> getTables(String schemaPrefix) {
+    public List<TargetResource> getColumns(String schemaPrefix) {
         String sql = "SELECT table_schema, table_name, column_name, character_maximum_length " +
                 "FROM information_schema.columns " +
                 "WHERE table_schema LIKE '" + schemaPrefix + "%' AND data_type = 'character varying'";
